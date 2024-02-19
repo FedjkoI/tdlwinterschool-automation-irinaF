@@ -10,6 +10,11 @@
     "@wdio/visual-service": "^3.0.1"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure": "allure serve allure-results"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.27.0",
+    "devtools": "^8.32.1"
   }
 }
